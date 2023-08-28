@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- bootstrap icon cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Real Estate</title>
+  </head>
+  <body>
+    
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+     <div class="container-fluid">
+    <a class="navbar-brand ms-5 fw-bold" href="#hero"><span class="text-danger">real</span>tor.com</a>
+    <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon text-black-50"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+        <li class="nav-item me-4">
+          <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+        </li>
+        <li class="nav-item me-4">
+          <a class="nav-link" href="#main">Service</a>
+        </li>
+       
+        
+        <li class="nav-item me-4">
+          <a class="nav-link " href="#review" >Review</a>
+        </li>
+        <li class="nav-item me-4">
+          <a class="nav-link " href="#contact" >Contact</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- Hero -->
+<div class="container-fluid border border-2" id="hero">
+  <div class="row">
+     <div class="hero-first d-flex  flex-column justify-content-center align-items-start col-sm-12 col-md-12 col-lg-6"> 
+      <h2 class="heading text-info">Find Your Dream <br> <span class="text-primary">Home</span> Today</h2>
+      <p>Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus.</p>
+     </div>
+    <div class="col-sm-12 col-md-12 col-lg-6">
+       <div class="container form">
+        <h2 class="text-info">Connect with us</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Phone</label>
+                <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+            </div>
+          <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+     </div>
+   </div>
+  </div>
+</div>
+<!-- Main Section -->
+<div class="container-fluid" id="main">
+  <h1 class="text-primary text-center header-text">Nice Apartments</h1>
+   <div class="row p-3">
+     <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+        <div class="card ">
+          <div class="image-container"> <img src="./assets/property1.png" class="card-img-top" alt="Product 1"></div>
+            <div class="card-body">
+              <div class="d-flex ">
+                <span class="material-symbols-outlined me-2">apartment</span>
+                <span>Commercial</span>
+              </div>
+               <h2 class="text-primary">Awesome Apartment</h2>
+                <p class="text-primary">$5235/mo</p>
+                <p class="mt-1">Pune,Maharashtra</p>
+                <p>Offices: 20 / Baths: 6 / Sq Ft: 10450 </p>
+                <button class="btn btn-primary p-2 fw-bold">Details</button>
+              </div>
+            </div>
+           </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+               <div class="card ">
+                    <div class="image-container">
+                      <img src="./assets/property2.png" class="card-img-top" alt="Product 1">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex ">
+                       <span class="material-symbols-outlined me-2">home</span>
+                        <span>Residential</span>
+                      </div>
+                      <h2 class="text-primary">Modern Apartment</h2>
+                      <p class="text-primary">$ 151,000</p>
+                      <p class="mt-1">Delhi,India</p>
+                      <p>Bedrooms: 3 / Baths: 2 / Sq Ft: 1450 </p>
+                      <button class="btn btn-primary p-2 fw-bold">Details</button>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+               <div class="card ">
+                    <div class="image-container">
+                      <img src="./assets/property3.png" class="card-img-top" alt="Product 1">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex ">
+                      <span class="material-symbols-outlined me-2">home</span>
+                        <span>Residential</span>
+                      </div>
+                      <h2 class="text-primary">City Center </h2>
+                      <p class="text-primary">$5235/mo</p>
+                      <p class="mt-1">Mumbai,Maharashtra</p>
+                      <p>Offices: 20 / Baths: 6 / Sq Ft: 10450 </p>
+                      <button class="btn btn-primary p-2 fw-bold">Details</button>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card ">
+                    <div class="image-container">
+                      <img src="./assets/property4.png" class="card-img-top" alt="Product 1">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex ">
+                        <span class="material-symbols-outlined me-2">apartment</span>
+                        <span>Commercial</span>
+                      </div>
+                      <h2 class="text-primary">Gorgeous Studio </h2>
+                      <p class="text-primary">$5235/mo</p>
+                      <p class="mt-1">Chennai,Tamil Nadu</p>
+                      <p>Offices: 20 / Baths: 6 / Sq Ft: 10450 </p>
+                      <button class="btn btn-primary p-2 fw-bold">Details</button>
+                     </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card ">
+                    <div class="image-container">
+                      <img src="./assets/property5.png" class="card-img-top" alt="Product 1">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex ">
+                       <span class="material-symbols-outlined me-2">home</span>
+                        <span>Residential</span>
+                      </div>
+                      <h2 class="text-primary">Luxury Family</h2>
+                      <p class="text-primary">$5235/mo</p>
+                      <p class="mt-1">Panjab,India</p>
+                      <p>Offices: 20 / Baths: 6 / Sq Ft: 10450 </p>
+                      <button class="btn btn-primary p-2 fw-bold">Details</button>
+                     </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card ">
+                    <div class="image-container">
+                      <img src="./assets/property6.png" class="card-img-top" alt="Product 1">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex ">
+                        <span class="material-symbols-outlined me-2">apartment</span>
+                        <span>Commercial</span>
+                      </div>
+                      <h2 class="text-primary">Glamorous </h2>
+                      <p class="text-primary">$5235/mo</p>
+                      <p class="mt-1">HariyanaIndia</p>
+                      <p>Offices: 20 / Baths: 6 / Sq Ft: 10450 </p>
+                      <button class="btn btn-primary p-2 fw-bold">Details</button>
+                     </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card ">
+                   <div class="image-container">
+                     <img src="./assets/property7.png" class="card-img-top" alt="Product 1">
+                   </div>
+                    <div class="card-body">
+                      <div class="d-flex ">
+                        <span class="material-symbols-outlined me-2">home</span>
+                        <span>Residential</span>
+                      </div>
+                      <h2 class="text-primary">Luxury family home</h2>
+                      <p class="text-primary">$5235/mo</p>
+                      <p class="mt-1">Kolkata,West Bengol</p>
+                      <p>Offices: 20 / Baths: 6 / Sq Ft: 10450 </p>
+                      <button class="btn btn-primary p-2 fw-bold">Details</button>
+                     </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card ">
+                    <div class="image-container">
+                      <img src="./assets/property8.png" class="card-img-top" alt="Product 1">
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex ">
+                        <span class="material-symbols-outlined me-2">apartment</span>
+                        <span>Commercial</span>
+                      </div>
+                      <h2 class="text-primary">Awesome Apartment</h2>
+                      <p class="text-primary">$5235/mo</p>
+                      <p class="mt-1">Rajashtan,India</p>
+                      <p>Offices: 20 / Baths: 6 / Sq Ft: 10450 </p>
+                      <button class="btn btn-primary p-2 fw-bold">Details</button>
+                    </div>
+                </div>
+            </div>
+ </div>
+</div>
+<!-- review section -->
+<section id="review">
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-10 col-xl-8 text-center">
+      <h1 class="mb-4 text-primary">Reviews</h1>
+      <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet
+        numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum
+        quisquam eum porro a pariatur veniam.
+      </p>
+    </div>
+  </div>
+
+  <div class="row text-center">
+    <div class="col-md-4 mb-5 mb-md-0">
+      <div class="d-flex justify-content-center mb-4">
+        <div class="image-container">
+          <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+          class="rounded-circle shadow-1-strong" width="150" height="150" />
+        </div>
+      </div>
+      <h5 class="mb-3 text-primary">Ashutosh Sharma</h5>
+      <p class="px-xl-3">
+        <i class="fas fa-quote-left pe-2"></i>Thank you so much Realty Assistant, I had an excellent experience as the team did a fantastic job. Their knowledge about the Gurgaon location is incredible.  </p>
+      <ul class="list-unstyled d-flex justify-content-center mb-0">
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star-half-alt fa-sm text-warning"></i>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4 mb-5 mb-md-0">
+      <div class="d-flex justify-content-center mb-4">
+       <div class="image-container">
+         <img src="./assets/picture2.png"
+          class="rounded-circle shadow-1-strong" width="150" height="150" />
+       </div>
+      </div>
+      <h5 class="mb-3 text-primary">Ashok Yende</h5>
+      <p class="px-xl-3">
+        <i class="fas fa-quote-left pe-2"></i>Realty Assistant worked like professionals and guided us right from the beginning till the final possession of the property. Being transparent about their business processes,  </p>
+      <ul class="list-unstyled d-flex justify-content-center mb-0">
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4 mb-0">
+      <div class="d-flex justify-content-center mb-4">
+        <div class="image-container">
+          <img src="./assets/picture1.png"
+          class="rounded-circle shadow-1-strong" width="150" height="150" />
+        </div>
+      </div>
+      <h5 class="mb-3 text-primary">Sharat M. Airani</h5>
+      <p class="px-xl-3">
+        <i class="fas fa-quote-left pe-2"></i>Gajendra is very professional. He goes the extra mile in securing a good property and helping with everything involved. He sensed the need and discussed in detail with us.  </p>
+      <ul class="list-unstyled d-flex justify-content-center mb-0">
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="fas fa-star fa-sm text-warning"></i>
+        </li>
+        <li>
+          <i class="far fa-star fa-sm text-warning"></i>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- contact  -->
+<div class="container" id="contact">
+        <h1 class="text-primary text-center">Contact Us</h1>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 d-flex flex-column align-items-center justify-content-center" >
+                <h2 class="text-info">Contact Information</h2>
+                <ul class="fs-5">
+                    <li><strong>Phone:</strong> +91 9834756699</li>
+                    <li><strong>Email:</strong> prasadsontakke731@gmail.com</li>
+                    <li><strong>Office Address:</strong> Kothrud, Pune, India</li>
+                </ul>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <h2>Contact Form</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control r" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+<div class="container-fluid my-5">
+  <footer class="bg-dark text-center text-white">
+  <div class="container-fluid p-4 pb-0">
+    <section class="mb-4">
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/prasad.sontakke.370" role="button"
+        ><i class="bi bi-facebook"></i
+      ></a>
+      <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/prasadsontakk19" target="_blank" role="button"
+        ><i class="bi bi-twitter"></i></a>
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/prasadsontakke45/" target="_blank" role="button"
+        ><i class="bi bi-instagram"></i
+      ></a>
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/prasad-sontakke-676814205/" target="_blank" role="button"
+        ><i class="bi bi-linkedin"></i></a>
+         <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/prasadsontakke77" target="_blank" role="button">
+        <i class="bi bi-github"></i>
+    </a>
+    </section>
+  </div>
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright:
+    <a class="text-white" href="#">realestate.com</a>
+  </div>
+</footer>
+  </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src=""></script>
+   
+  </body>
+</html>
